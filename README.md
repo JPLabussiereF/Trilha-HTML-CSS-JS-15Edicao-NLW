@@ -13,7 +13,7 @@ Aplicação desenvolvida no NLW Unite da Rocketseat na trilha HTML+CSS+JS.
 </p>
 
 <p align="center">
-  <img alt="License" src="https://camo.githubusercontent.com/40758182b90c91234cd162ecd2acdcf2f744a7eef194b5ce103715c89c6937a0/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d6c6963656e7365266d6573736167653d4d495426636f6c6f723d463438463536266c6162656c436f6c6f723d303032393245">
+  <img alt="License" src="assets\image\license.svg">
 </p>
 
 <br>
@@ -23,7 +23,7 @@ Aplicação desenvolvida no NLW Unite da Rocketseat na trilha HTML+CSS+JS.
 </p>
 
 
-## 🚀 Tecnologias
+## 🧠 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -31,6 +31,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
-## Projeto
+## 🚀 Projeto
 
 Nesse projeto vou desenvolver a versão simplificada de um sistema de check-in para eventos presenciais.
