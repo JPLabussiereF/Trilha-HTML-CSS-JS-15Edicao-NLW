@@ -33,4 +33,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-Nesse projeto iremos desenvolver a versão simplificada de um sistema de check-in para eventos presenciais.
+Nesse projeto vou desenvolver a versão simplificada de um sistema de check-in para eventos presenciais.
