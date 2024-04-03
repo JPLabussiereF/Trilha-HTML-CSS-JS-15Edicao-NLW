@@ -14,3 +14,8 @@ Isso resultaria no modelo abaixo:
 Pega tudo e tira qualquer tipo de informação que existir de algum momento feito pelo navegador (browser)
 
 > elemento {<br> all:   unset <br>}
+
+Pega apenas as div filhas do fieldset
+
+> fieldset > div {<br>}
+  

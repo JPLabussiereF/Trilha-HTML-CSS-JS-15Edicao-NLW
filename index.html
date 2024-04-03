@@ -25,39 +25,54 @@
     </head>
 
     <body>
-        <header></header>
+      <div class="container">
+        <header>
+          <img src="assets\image\nlwImage.svg" alt="primeiro frame de imagem do figma">
+        </header>
 
         <main>
             <form onsubmit="adicionarParticipante(event)">
                 <fieldset>
                     <legend>Inscrição</legend>
-
+              
                       <div>
-                        <input type="text" placeholder="Nome Completo" name="nome" required>
-                        <input type="email" placeholder="Email" name="email" required>
+                        <div class="input-wrapper">
+                          <img src="assets\image\circle-user-round.svg" alt="Mini icone de usuário">
+                            <input type="text" placeholder="Nome Completo" name="nome" required>
+                        </div>
+                        <div class="input-wrapper">
+                          <img src="assets\image\at-sign.svg" alt="Mini icone de email">
+                            <input type="email" placeholder="Email" name="email" required>
+                        </div>
                         <button>Realizar inscrição</button>
                       </div>
                 </fieldset>
             </form>
-            <table width="100%">
-                <thead style="text-align: left">
-                  <tr>
-                    <th>Participante</th>
-                    <th>Data da inscrição</th>
-                    <th>Data do check-in</th>
-                  </tr>
-                </thead>
-          
-                <tbody>
-          
-                </tbody>
-              </table>
+            <section class="lista-participantes">
+              <h2>Participantes</h2>
+              <div>
+                <table width="100%">
+                  <thead style="text-align: left">
+                    <tr>
+                      <th>Participante</th>
+                      <th>Data da inscrição</th>
+                      <th>Data do check-in</th>
+                    </tr>
+                  </thead>
+            
+                  <tbody>
+            
+                  </tbody>
+                </table>
+              </div>
+            </section>
           
               <script src="assets\js\index.js"></script>
             </body>
         </main>
-
+      </div>
         <footer></footer>
+      
     </body>
 
 </html>
