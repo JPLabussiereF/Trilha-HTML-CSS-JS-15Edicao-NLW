@@ -108,9 +108,9 @@ const criarNovoParticipante = (participante) => {
 
 const atualizarLista = (participantes) => {
     let output = "";
-    for(let participante of participantes){
-        output = output + criarNovoParticipante(participante);
-    }
+    participantes.map((participante)=>{
+      output = output + criarNovoParticipante(participante);
+    })
     document.querySelector("tbody").innerHTML = output;
 }
   
